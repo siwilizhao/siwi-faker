@@ -1,0 +1,32 @@
+{
+  "name": "siwi-faker",
+  "version": "1.0.0",
+  "description": "nodejs 假数据生成",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwilizhao/siwi-faker.git"
+  },
+  "keywords": ["faker","siwi-faker"],
+  "author": "siwilizhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siwilizhao/siwi-faker/issues"
+  },
+  "homepage": "https://github.com/siwilizhao/siwi-faker#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
+}
