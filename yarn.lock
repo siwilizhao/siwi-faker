@@ -164,6 +164,18 @@ pathval@^1.0.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/pathval/download/pathval-1.1.0.tgz#b942e6d4bde653005ef6b71361def8727d0645e0"
 
+siwi-json@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/siwi-json/download/siwi-json-1.0.2.tgz#eee96f4329cefad8be670da14c413cc4399aa82d"
+
+siwi-md5@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/siwi-md5/download/siwi-md5-1.0.2.tgz#142402115df57c7ca7eb767e68ca2e2c2609168d"
+
+siwi-uniquestring@^1.0.4:
+  version "1.0.4"
+  resolved "http://registry.npm.taobao.org/siwi-uniquestring/download/siwi-uniquestring-1.0.4.tgz#87cff018c036ca4914686891b255b489b8076f5a"
+
 supports-color@5.4.0:
   version "5.4.0"
   resolved "http://registry.npm.taobao.org/supports-color/download/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"

@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/siwilizhao/siwi-faker.git"
   },
-  "keywords": ["faker","siwi-faker"],
+  "keywords": [
+    "faker",
+    "siwi-faker"
+  ],
   "author": "siwilizhao",
   "license": "MIT",
   "bugs": {
@@ -27,6 +30,9 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "bluebird": "^3.5.1"
+    "bluebird": "^3.5.1",
+    "siwi-json": "^1.0.2",
+    "siwi-md5": "^1.0.2",
+    "siwi-uniquestring": "^1.0.4"
   }
 }
