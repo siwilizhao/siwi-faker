@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const chinese = require('../lib/models/chinese')
+const chinese = require('../index')
 describe('lib/models/chinese.js', () => {
     it('province', async() => {
         const r = await chinese.province()    
@@ -7,6 +7,14 @@ describe('lib/models/chinese.js', () => {
     });
     it('city', async () => {
         const r = await chinese.city()
+        console.log(r)
+    });
+    it('phone', async () => {
+        const r = await chinese.phone()
+        console.log(r)
+    });
+    it('email', async () => {
+        const r = await chinese.email()
         console.log(r)
     });
     // it('getProvinceByCity', async () => {
