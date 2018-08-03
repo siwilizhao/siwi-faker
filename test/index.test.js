@@ -59,4 +59,16 @@ describe('lib/models/chinese.js', () => {
         const r = await chinese.password()
         console.log(r)
     });
+    it('order', async () => {
+        const r = await chinese.order()
+        console.log(r)
+    });
+    it('randomArray', async () => {
+        const r = await chinese.randomArray(['1','2','3','4'], 2)
+        console.log(r)
+    });
+    it('order', async () => {
+        const r = await chinese.randomStr('SADKKADASK', 2)
+        console.log(r)
+    });
 });
