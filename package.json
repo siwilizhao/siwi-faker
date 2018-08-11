@@ -1,7 +1,7 @@
 {
   "name": "siwi-faker",
   "version": "1.0.0",
-  "description": "nodejs 假数据生成",
+  "description": "nodejs faker data",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -17,6 +17,8 @@
     "url": "git+https://github.com/siwilizhao/siwi-faker.git"
   },
   "keywords": [
+    "siwi",
+    "siwilizhao",
     "faker",
     "siwi-faker"
   ],
