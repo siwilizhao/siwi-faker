@@ -231,6 +231,7 @@ class Example {
 
     }
     async demo() {
+        const province = '河南省'
         const city = await faker.city(province)
         console.log(city)
     }
@@ -252,6 +253,8 @@ class Example {
 
     }
     async demo() {
+        const province = '河南省'
+        const city = '周口市'
         const county = await faker.county(city, province)
         console.log(county)
     }
@@ -274,6 +277,9 @@ class Example {
 
     }
     async demo() {
+        const province = '河南省'
+        const city = '周口市'
+        const county = '鹿邑县'
         const address = await faker.address(province , city, county )
         console.log(address)
     }
@@ -284,10 +290,10 @@ class Example {
 
 | 参数 | 含义 | 示例 |
 | --- | --- | --- |
-| id | 城市| 周口市 |
-| prefix | 省| 河南省 |
-| pad | 县区| 鹿邑县 |
-| length | 县区| 鹿邑县 |
+| id | id| 996 |
+| prefix | 前缀| POD |
+| pad | 填充元素| 0 |
+| length | 生成code的长度| 15 |
 
 ```js{4}
 const faker = require('siwi-faker')
@@ -297,20 +303,13 @@ class Example {
 
     }
     async demo() {
-        const code = await faker.code(id = false, prefix = 'POD', pad = '0', length = 15)
+        const code = await faker.code(id = 100, prefix = 'POD', pad = '0', length = 15)
         console.log(code)
     }
 }
 ```
 
 ### order
-
-| 参数 | 含义 | 示例 |
-| --- | --- | --- |
-| id | 城市| 周口市 |
-| prefix | 省| 河南省 |
-| pad | 县区| 鹿邑县 |
-| length | 县区| 鹿邑县 |
 
 ```js{4}
 const faker = require('siwi-faker')
@@ -349,13 +348,6 @@ class Example {
 ```
 
 ### randomStr
-
-| 参数 | 含义 | 示例 |
-| --- | --- | --- |
-| id | 编号| 1024 |
-| prefix | 前缀| POD |
-| pad |填充 |  0|
-| length | 长度| 15 |
 
 ```js{4}
 const faker = require('siwi-faker')
