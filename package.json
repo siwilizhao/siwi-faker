@@ -36,5 +36,8 @@
     "siwi-json": "^1.0.2",
     "siwi-md5": "^1.0.2",
     "siwi-uniquestring": "^1.0.4"
+  },
+  "engines": {
+    "node": ">= 8.9"
   }
 }
